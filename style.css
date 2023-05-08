@@ -1,0 +1,25 @@
+nav{
+    background-color: aquamarine;
+}
+nav > h2{
+text-align: center;
+color: rgb(98, 133, 121);
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(12, 141, 98);
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 50px;
+    }
+
+#fundo1{
+    width: 1500px;
+    height: 800px;
+    margin-left: 200px;
+}
+#fundo2{
+    border-radius: 50px;
+    margin-top: 450px;
+    margin-left: 100px;
+}
