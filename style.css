@@ -1,18 +1,20 @@
 nav{
-    background-color: aquamarine;
+    background-color: #04ACD6;
 }
 nav > h2{
 text-align: center;
-color: rgb(98, 133, 121);
+color: white;
 }
 button{
     border-radius: 20px;
-    background-color: rgb(12, 141, 98);
+    background-color: #04ACD6;
     border-color: rgb(255, 255, 255);
     color: white;
     font-size: 50px;
     }
-
+body{
+    background-color: #10eedf5d;
+}
 #fundo1{
     width: 1500px;
     height: 800px;
@@ -21,5 +23,46 @@ button{
 #fundo2{
     border-radius: 50px;
     margin-top: 450px;
-    margin-left: 100px;
+    margin-left: 10;
+}
+#form{
+    border-radius: 10px;
+    border-color: #036fce;
+    border-style: solid;
+    background-color:#04ACD6 ;
+    width: 450px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+#form-nome{
+    border-radius: 10px;
+    border-color: #0587F7;
+    border-style: solid;
+    width: 150px;
+    height: 100px;
+    background-color:#ffffffd3;
+    color: #0587F7;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+form{
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+label{
+    color: white;
+}
+input{
+    border-color: #036fce;
+}
+#btn-iniciar > button:hover{
+background-color: #0587F7;
+box-shadow:5px 5px 5px #024986; ;
+}
+#btn-iniciar{
+    margin-left: 130px;
+    margin-top: 50px;
 }
