@@ -1,7 +1,7 @@
 nav{
     background-color: #04ACD6;
 }
-nav > h2{
+nav > div > h2{
 text-align: center;
 color: white;
 }
@@ -10,59 +10,38 @@ button{
     background-color: #04ACD6;
     border-color: rgb(255, 255, 255);
     color: white;
-    font-size: 50px;
+    font-size: 25px;
     }
 body{
     background-color: #10eedf5d;
 }
-#fundo1{
-    width: 1500px;
-    height: 800px;
-    margin-left: 200px;
-}
-#fundo2{
-    border-radius: 50px;
-    margin-top: 450px;
-    margin-left: 10;
-}
-#form{
-    border-radius: 10px;
-    border-color: #036fce;
+#area-perguntas{
+    border-color: #04ACD6;
     border-style: solid;
-    background-color:#04ACD6 ;
-    width: 450px;
-    height: 400px;
-    margin-top: 200px;
-    margin-left: 700px;
-}
-#form-nome{
+    background-color: #04acd694;
+    margin: 20px;
     border-radius: 10px;
-    border-color: #0587F7;
-    border-style: solid;
-    width: 150px;
-    height: 100px;
-    background-color:#ffffffd3;
-    color: #0587F7;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 130px;
+    width: 800px;
 }
-form{
-    margin: 10px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-label{
+#pergunta{
     color: white;
+    margin: 10px;
+    text-align: left;
 }
-input{
-    border-color: #036fce;
+#alternativas{
+    color: white;
+    margin: 10px;
+    text-align: left;
 }
-#btn-iniciar > button:hover{
-background-color: #0587F7;
-box-shadow:5px 5px 5px #024986; ;
+nav{
+    display: flex;
+    gap: 10%;
+    align-items: center;
 }
-#btn-iniciar{
-    margin-left: 130px;
-    margin-top: 50px;
+nav > div > img{
+    margin-left: 10px;
+}
+
+#topo {
+    text-align: -webkit-center;
 }
