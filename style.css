@@ -3,7 +3,7 @@ nav{
 }
 nav > div > h2{
 text-align: center;
-color: white;
+color: rgb(0, 0, 0);
 }
 button{
     border-radius: 20px;
@@ -22,14 +22,15 @@ body{
     margin: 20px;
     border-radius: 10px;
     width: 800px;
+    font-size: 25px;
 }
 #pergunta{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 10px;
     text-align: left;
 }
 #alternativas{
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 10px;
     text-align: left;
 }
